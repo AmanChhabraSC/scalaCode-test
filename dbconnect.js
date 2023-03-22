@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 //setting connection
 const dbconnect = async function () {
   try {
-    await mongoose.connect("mongodb://127.0.0.1:27017/Task", {
+    await mongoose.connect("mongodb+srv://AmanChhabra:aman123@cluster0.hvakj1v.mongodb.net/test", {
       useNewUrlParser: true,
     });
 
