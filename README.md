@@ -53,3 +53,10 @@ This endpoint takes page and pageSize as the parameters, so in the url you will 
 As you will hit the endpoint, you will get only limited number of entries which you want. I have added sorting also in this on the basis of Name in descending order and also a filter on the basis of the user’s age is greater than 25. 
 
 
+Tasks not completed:
+1.	Write unit tests for all endpoints using a testing framework of your choice (e.g. Mocha, Jest)
+2.	Use a library like Joi or Yup for input validation
+3.	Use a library like Passport.js for authentication
+
+Reason: Have not worked with these libraries yet, so need to go through them and have to see how to implement these in the code.
+
