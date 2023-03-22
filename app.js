@@ -4,7 +4,9 @@ const bodyParser = require("body-parser");
 const dbconnect = require("./dbconnect");
 const bunyan = require("bunyan");
 const userRoutes = require("./routers/userRoutes");
-const PORT = 1234;
+const PORT = process.env.PORT||1234;
+
+console.log(process.env.PORT)
 
 const app = express();
 let log = bunyan.createLogger({ name: "Database" });
