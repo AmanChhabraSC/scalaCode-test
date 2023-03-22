@@ -29,6 +29,10 @@ dbconnect()
 
 app.use("/api", userRoutes);
 
+app.get('/', (req, res) => {
+  res.send("Hello from Server")
+})
+
 app.listen(PORT, () => {
   log.info("Server Listening on:" + PORT);
 });
